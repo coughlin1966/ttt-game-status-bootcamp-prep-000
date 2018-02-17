@@ -38,10 +38,10 @@ end
 def winner(board)
 if over?(board)
   return nil
-  elsif win.all do |xwin| xwin == "X"
-    return "X"
-  # else
-  #   return "Y"
-  end
+  # elsif win.all do |xwin| xwin == "X"
+  #   return "X"
+  # # else
+  # #   return "Y"
+  # end
 end
 end
