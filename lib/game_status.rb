@@ -40,8 +40,8 @@ if over?(board)
   return nil
   elsif win.all do |xwin| xwin == "X"
     return "X"
-  else
-    return "Y"
+  # else
+  #   return "Y"
   end
 end
 end
