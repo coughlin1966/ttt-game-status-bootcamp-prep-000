@@ -36,7 +36,7 @@ draw?(board) || won?(board) && full?(board) || won?(board) && !full?(board)
 end
 
 def winner(board)
-won?(board)
+won?(board).win
 if win.all? do |xwin| xwin == "X"
 return "X"
   # # else
